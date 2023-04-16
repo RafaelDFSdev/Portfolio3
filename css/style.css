@@ -10,3 +10,8 @@
     display: block;
     margin: auto;
 }
+@media screen ( max-width:999px) {
+    .cards{
+        flex-direction: column;
+    }
+}
