@@ -15,6 +15,10 @@ svg{
     margin-bottom: auto;  
     opacity: 0.3;
 }
+footer{
+    text-align: center;
+    opacity: 0.7;
+}
 @media( max-width:999px) {
     .cards{
         flex-direction: column;
