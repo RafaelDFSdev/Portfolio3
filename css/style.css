@@ -10,9 +10,17 @@
     display: block;
     margin: auto;
 }
+svg{
+    margin-top: auto;
+    margin-bottom: auto;  
+    opacity: 0.3;
+}
 @media( max-width:999px) {
     .cards{
         flex-direction: column;
         align-items: center;
+    }
+    svg{
+        display: none;
     }
 }
